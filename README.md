@@ -4,8 +4,6 @@ The Digital Invisible Ink Toolkit is a Java steganography tool that can hide any
 
 There are four highly customisable algorithms in the tool, as well as an open-source implementation of RS Analysis (an extremely good steganalysis method). The tool has the additional advantage of being able to simulate hiding - so you can get an accurate map of where the information is hidden.
 
-The compiled version can be run by simply double clicking the .jar file (in Windows), or by running at a command line with the following options (you will need to run at the command line if you are using big pictures, such as those greater than 500x500 pixels or it will run out of memory). You can download the precompiled jar file [directly from SourceForge](http://diit.sourceforge.net/download.php).
-
 ## Pre-requisites
 
 You will need a Java virtual machine installed. This is common software, free for personal use, and if you do not have it already installed you can download a copy from the [Java website](https://www.java.com/en/download/manual.jsp).
