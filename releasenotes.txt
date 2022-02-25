@@ -1,0 +1,21 @@
+Digital Invisible Ink Toolkit 1.0
+======================================
+
+This is the public release of the toolkit, and may contain bugs.
+
+
+Introduction
+------------
+
+This tool is a cross-platform steganography program.  It can embed any
+sort of file inside an image, and regarding the method and password are
+known, this can be retrieved at a later stage.
+
+
+Release Detail
+--------------
+
+This version has a rudimentary gui which supports all of the algorithms
+for hiding.  It should be run on java 1.4 with the java advanced imaging
+toolkit (jai) or with java 1.5.  If it is not run on these versions of java
+it will very likely not write out the final images.

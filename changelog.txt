@@ -1,0 +1,70 @@
+Digital Invisible Ink Toolkit Changelog
+=======================================
+
+May 2006
+-----------------------------
+Added a "NoMessageException" which is thrown when the retrieved message 
+size is larger than the space (as calculated with algorithm settings and
+given image).  
+Fixed typo in the Prewitt and Sobel filters.
+Added cancel button to the "Working please wait" panel.
+Added LSB Matching for all algorithms.
+
+
+February 2006
+------------------------------
+Added the ability to see how much space left in an image (for both encoding and simulating).
+Also added "Explain" button which gives a short synopsis of what the algorithm does.
+
+January 2006
+---------------------------
+Added the Prewitt edge detecting filter.
+Added Dynamic BattleSteg and Dynamic FilterFirst algorithms.  These two new algorithms are
+augmented versions of their original counterparts, but are not compatible with
+their counterparts.
+
+
+27 October 2005
+--------------------------
+Tuned BattleSteg algorithm
+Fixed some interface bugs - including one where the filter values were set wrong.
+
+19 October 2005
+------------------
+Fixed the interface so it lines up properly
+Fixed Average Absolute Difference, LpNorm and Mean Squared Error so the 
+ratios aren't rounded to zero.
+Fixed Sample Pairs code.
+
+
+12 September 2005
+------------------
+Fixed a bug with the file filters where they failed to show directories.
+Compiled source with compatibility for Java 1.4 (was using 1.5 compiler)
+
+
+17 August 2005
+--------------
+Implemented benchmarking into the interface
+NB: Sample pairs has a scaling problem
+Various small interface bug fixes.
+RS Analysis code complete and working.
+Bug in filter selection panel removed.
+
+
+22 May 2005
+-----------
+
+Beta 2 Released.
+Changes include:
+ - realtime monitoring of jvm state to prevent outofmemory error crashes
+ - use of system look and feel
+ - removal of battlesteg shuffling bug
+ - benchmarking utilities included in file
+ - checks for correct libraries on pc
+
+
+17 May 2005
+-----------
+
+Initial Beta Version Released.
