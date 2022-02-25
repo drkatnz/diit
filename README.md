@@ -32,7 +32,7 @@ For effective hiding, keep embedding rates <= 10%. Use FilterFirst with Sobel fi
 
 Ideally use images for hiding that are busy and have a lot of edges - if there are large blocks of colour you risk the image being visibly degraded which may indicate something is hidden it in.
 
-The transformations performed by this tool are fragile; image compression, cropping, and pixel modification destroy the steganography and make the hidden file impossible to retrieve. Image rotation should be okay provided the image is in its original state when 
+The transformations performed by this tool are fragile; image compression, cropping, and pixel modification destroy the steganography and make the hidden file impossible to retrieve. Image rotation should be okay provided the image is in its original state when attempting to retrieve the hidden data.
 
 ## How it works
 
