@@ -12,7 +12,7 @@ You will need a Java virtual machine installed. This is common software, free fo
 
 ## Running pre-compiled version
 
-You can download the precompiled jar file [directly from SourceForge](http://diit.sourceforge.net/download.php), and then double-click it to run the toolkit.
+You can download the precompiled jar file [directly from SourceForge](http://diit.sourceforge.net/download.php) or from the [GitHub release](https://github.com/drkatnz/diit/releases/tag/v1.5) or also the [direct jar link on GitHub](https://github.com/drkatnz/diit/releases/download/v1.5/diit-1.5.jar), and then double-click it to run the toolkit.
 
 ![Screenshot of running program](images/mainscreenshot.png)
 
